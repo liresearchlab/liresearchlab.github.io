@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8"/>
+	<title>li research lab</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- RSS feed -->
+	<link rel="alternate" type="application/rss+xml" title="Li Research Lab" href="http://localhost:4000/feed.xml">
+
+  <!-- Customized Bootstrap + Font Awesome + Solarized -->
+  <link href="/css/style.css" rel="stylesheet" media="screen">
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="/images/favicon.png"/>
+
+	<!-- Typekit --> <!-- Exactly same snippet as on https://helpx.adobe.com/sg/fonts/using/embed-codes.html-->
+	<script>
+	  (function(d) {
+		var config = {
+		  kitId: 'xeu8jut',
+		  scriptTimeout: 3000
+		},
+		h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+	  })(document);
+	</script>
+	<!--    Tried to change text font to Noto Sans Display by myself
+	<link href='https://fonts.googleapis.com/css?family=Noto Sans Display' rel='stylesheet'>
+	<style>
+	body {
+    font-family: 'Noto Sans Display';font-size: 22px;
+	}
+	</style>
+	-->
+
+	<!-- Google Analytics -->
+	<!--
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-26244371-2', 'bedford.io');
+		ga('send', 'pageview');
+
+	</script>
+	-->
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-WSZ8JNQG0K"></script>
+	<script>
+  	  window.dataLayer = window.dataLayer || [];
+  	  function gtag(){dataLayer.push(arguments);}
+  	  gtag('js', new Date());
+
+  	  gtag('config', 'G-WSZ8JNQG0K');
+	</script>
+
+	<!--
+	<meta name="theme-color" content="#ffffff">
+	-->
+
+	<!-- jQuery -->
+	<script src="/js/jquery.min.js"></script>
+
+	<!-- Bootstrap -->
+	<script src="/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+	<div id="header">
+		<nav class="navbar navbar-expand-md navbar-light bg-navbar">
+			<div class="container">
+				
+				<a class="navbar-brand" href="/">
+				</a>
+				
+				<button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<!-- <span class="text-muted"><hr
+						style="height:2px;border:none;color:rgb(255, 83, 13);background-color:rgb(255, 83, 13)" /></span> -->
+					<ul class="navbar-nav nav-pills ml-auto">
+						
+						<li class="nav-link">
+						
+						<a class="mx-1" href="/news/">news</a>
+						</li>
+						
+						<li class="nav-link">
+						
+						<a class="mx-1" href="/research/">research</a>
+						</li>
+						
+						<li class="nav-link">
+						
+						<a class="mx-1" href="/papers/">papers</a></li>
+						
+						<li class="nav-link">
+						
+						<a class="mx-1" href="/team/">team</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</div>
+
+	<div class="container mt-4">
+
+	<!--
+<div class="row">
+	<div class="col-lg-12">
+		<object class="pull-left biglogo" data="/images/logo.svg" type="image/svg+xml"></object>
+		<div class="bigtitle logobox">
+			Li Research Lab
+		</div>
+	</div>
+</div>
+-->
+
+<div class="row">
+	<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 hidden-sm hidden-xs">
+		<img class="biglogo img-responsive" src="/images/logo.svg" type="image/svg+xml">
+	</div>
+	<div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+		<h1 class="intro-text">
+			The Li Lab of <span style="color: #FC8D59">ma</span>terials <span style="color: #FC8D59">re</span>search works on materials design for <span style="color: #6497D6">s</span>ustainable <span style="color: #6497D6">e</span>nergy <span style="color: #6497D6">a</span>pplications by computation, simulation, and data-driven methods.
+			<!--We are affiliated with the Thrust of Sustainable Energy and Environment at <a class="off" href="https://hkust-gz.edu.cn/">Hong Kong University of Science and Technology (Guangzhou)</a>. -->
+		</h1>
+	</div>
+</div>
+
+<!--
+<div class="bigspacer"></div>
+
+<div class="row">
+	<div class="col-lg-12">
+		<div class="smallhead">
+      <p>
+        The Li Lab of materials research (mare) for sustainable energy applications
+		at the <a class="off" href="https://hkust-gz.edu.cn/">Hong Kong University
+		of Science and Technology (Guangzhou)</a>.
+      </p>
+      <p>
+        We work on ...
+      </p>
+		</div>
+	</div>
+</div>
+-->
+
+<div class="bigspacer"></div>
+<div class="bigspacer"></div>
+
+<div class="row">
+	<div class="col-lg-12">
+		<div class="head">
+			<a class="off" href="/blog/">Recent posts</a>
+		</div>
+		<div class="spacer"></div>
+	</div>
+</div>
+
+<!--remember that I changed all original "blog" to "news", and the word "post" remains unchanged-->
+<div class="row">
+	
+
+	
+
+	<div class="col-lg-3 reduced-gutter">
+		<div class="pad-left">
+			<div class="note">
+				<i class="fa fa-comment-o fa-fw"></i>
+				<a class="off" href="/news/visits-to-zju-jlu/">
+				Yuheng visited Zhejiang University and Jilin University
+				</a>
+			</div>
+			<div class="smallspacer"></div>
+			<div class="smallnote">
+				Posted
+				Jun 27, 2024
+        
+        by <a class="off" href="
+          
+            
+              /team/yuheng-li/
+            
+          
+        ">
+        Yuheng Li
+        </a>
+        
+        
+			</div>
+			<div class="bigspacer"></div>
+		</div>
+	</div>
+	
+
+	
+
+	<div class="col-lg-3 reduced-gutter">
+		<div class="pad-left">
+			<div class="note">
+				<i class="fa fa-comment-o fa-fw"></i>
+				<a class="off" href="/news/openings-for-phd-postdoc/">
+				Openings for PhD and postdocs at HKUST(GZ)
+				</a>
+			</div>
+			<div class="smallspacer"></div>
+			<div class="smallnote">
+				Posted
+				Jun 8, 2024
+        
+        by <a class="off" href="
+          
+            
+              /team/yuheng-li/
+            
+          
+        ">
+        Yuheng Li
+        </a>
+        
+        
+			</div>
+			<div class="bigspacer"></div>
+		</div>
+	</div>
+	
+
+	
+
+	<div class="col-lg-3 reduced-gutter">
+		<div class="pad-left">
+			<div class="note">
+				<i class="fa fa-comment-o fa-fw"></i>
+				<a class="off" href="/news/visit-to-imperial/">
+				Yuheng visited Imperial College Londo
+				</a>
+			</div>
+			<div class="smallspacer"></div>
+			<div class="smallnote">
+				Posted
+				Dec 14, 2023
+        
+        by <a class="off" href="
+          
+            
+              /team/yuheng-li/
+            
+          
+        ">
+        Yuheng Li
+        </a>
+        
+        
+			</div>
+			<div class="bigspacer"></div>
+		</div>
+	</div>
+	
+
+	
+
+	<div class="col-lg-3 reduced-gutter">
+		<div class="pad-left">
+			<div class="note">
+				<i class="fa fa-comment-o fa-fw"></i>
+				<a class="off" href="/news/yuheng-awarded-schmidt-ai-fellow/">
+				Yuheng awarded the Schmidt AI in Science Fellowship
+				</a>
+			</div>
+			<div class="smallspacer"></div>
+			<div class="smallnote">
+				Posted
+				Jun 26, 2023
+        
+        by <a class="off" href="
+          
+            
+              /team/yuheng-li/
+            
+          
+        ">
+        Yuheng Li
+        </a>
+        
+        
+			</div>
+			<div class="bigspacer"></div>
+		</div>
+	</div>
+	
+</div>
+
+<div class="spacer"></div>
+
+<div class="row">
+	<div class="col-lg-12">
+		<div class="head">
+			<a class="off" href="/papers/">Recent papers</a>
+		</div>
+		<div class="spacer"></div>
+	</div>
+</div>
+
+<div class="row">
+	
+	<div class="col-lg-3 reduced-gutter">
+		<div class="pad-left">
+			<div class="note">
+				<i class="fa fa-file-text-o fa-fw"></i>
+				<a class="off" href="/papers/liu-alkali-cation-induced-catho/">
+				Alkali cation-induced cathodic corrosion in Cu electrocatalysts
+				</a>
+			</div>
+			<div class="smallspacer"></div>
+			<div class="smallnote">
+				Posted
+				Jun 13, 2024
+			</div>
+			<div class="bigspacer"></div>
+		</div>
+	</div>
+	
+	<div class="col-lg-3 reduced-gutter">
+		<div class="pad-left">
+			<div class="note">
+				<i class="fa fa-file-text-o fa-fw"></i>
+				<a class="off" href="/papers/helm-reducing-the-defect-formation/">
+				Reducing the defect formation energy by aliovalent Sn(+IV) and isovalent P(+V) substitution in Li<sub>3</sub>SbS<sub>4</sub> promotes Li<sup>+</sup> transport
+				</a>
+			</div>
+			<div class="smallspacer"></div>
+			<div class="smallnote">
+				Posted
+				Feb 29, 2024
+			</div>
+			<div class="bigspacer"></div>
+		</div>
+	</div>
+	
+	<div class="col-lg-3 reduced-gutter">
+		<div class="pad-left">
+			<div class="note">
+				<i class="fa fa-file-text-o fa-fw"></i>
+				<a class="off" href="/papers/li-a-database-of-computed-raman/">
+				A database of computed Raman spectra of inorganic compounds with accurate hybrid functionals
+				</a>
+			</div>
+			<div class="smallspacer"></div>
+			<div class="smallnote">
+				Posted
+				Jan 22, 2024
+			</div>
+			<div class="bigspacer"></div>
+		</div>
+	</div>
+	
+	<div class="col-lg-3 reduced-gutter">
+		<div class="pad-left">
+			<div class="note">
+				<i class="fa fa-file-text-o fa-fw"></i>
+				<a class="off" href="/papers/tieu-zirconia-free-nasicon-solid/">
+				Zirconia-free NaSICON solid electrolyte materials for sodium all-solid-state batteries
+				</a>
+			</div>
+			<div class="smallspacer"></div>
+			<div class="smallnote">
+				Posted
+				Oct 18, 2023
+			</div>
+			<div class="bigspacer"></div>
+		</div>
+	</div>
+	
+</div>
+
+<div class="spacer"></div>
+<div class="spacer"></div>
+
+
+<!--
+<div class="row">
+	<div class="col-lg-12">
+		<div class="head">
+			<a class="off" href="/projects/">Active projects</a>
+		</div>
+		<div class="spacer"></div>
+	</div>
+</div>
+
+<div class="row">
+	
+</div>
+
+<div class="spacer"></div>
+-->
+
+<!--
+<div class="row">
+	<div class="col-lg-12">
+		<div class="head">
+			Misc
+		</div>
+		<div class="spacer"></div>
+	</div>
+</div>
+
+<div class="row">
+	<div class="col-lg-12 reduced-gutter">
+		<div class="pad-left">
+			<ul class="list-inline">
+				
+				<li class="footernav list-inline-item">
+					<i class="fa fa-angle-right"></i> <a class="off" href="/misc/about/">About</a>
+				</li>
+				
+				<li class="footernav list-inline-item">
+					<i class="fa fa-angle-right"></i> <a class="off" href="/misc/join/">Join</a>
+				</li>
+				
+				<li class="footernav list-inline-item">
+					<i class="fa fa-angle-right"></i> <a class="off" href="/misc/contact/">Contact</a>
+				</li>
+				
+				<li class="footernav list-inline-item">
+					<i class="fa fa-angle-right"></i> <a class="off" href="/misc/twitter/">Twitter</a>
+				</li>
+				
+				<li class="footernav list-inline-item">
+					<i class="fa fa-angle-right"></i> <a class="off" href="/talks/">Talks</a>
+				</li>
+			</ul>
+		</div>
+		<div class="spacer"></div>
+	</div>
+</div>
+-->
+
+<div class="row">
+  <div class="col-lg-12">
+    <div class="float-lg-right" style="vertical-align: bottom; display: table-cell;">
+      <!--
+	  <a class="off" href="https://www.fredhutch.org/">
+        <img width=185 src="/images/logos/logo_fred_hutch_horizontal_grayscale.png">
+      </a>
+      &nbsp; &nbsp; &nbsp; &nbsp;
+	  -->
+      <a class="off" href="https://www.hkust-gz.edu.cn/">
+        <img width=189 src="/images/logos/logo_hkustgz.png">
+      </a>
+	  &nbsp; &nbsp; &nbsp; &nbsp;
+	  <a class="off" href="https://facultyprofiles.hkust-gz.edu.cn/thrust-faculties?code=10011A10000000000H24">
+		<img width=86 src="/images/logos/logo_see.png">
+	  </a>
+    </div>
+  </div>
+</div>
+
+<!--
+<a style="display:none;" rel="me" href="https://mstdn.science/@trvrb">Hidden Mastodon Link for Verification</a>
+-->
+
+	</div>
+
+	<div id="footer"><span style="display:none">foo</span></div>
+
+</body>
+</html>
