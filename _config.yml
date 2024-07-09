@@ -23,6 +23,8 @@ plugins:
 gzip:
   replace_files: true
 
+encoding: utf-8
+
 exclude:
   - "*.branches"
   - "*.class"
