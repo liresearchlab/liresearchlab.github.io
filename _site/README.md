@@ -1,4 +1,4 @@
-The group website is under construction, based on the theme by [bedford.io](http://bedford.io).
+The group website is being deployed, based on the theme by [bedford.io](http://bedford.io).
 
 ## License
 
