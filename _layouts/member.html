@@ -119,11 +119,14 @@ layout: default
 		<div class="post">
 			{{ content }}
 		</div>
-
+		
+		<!--
 		{% assign lastname = member.title | split: ' ' | last %}
 		{% assign firstinitial = member.title | split: ' ' | first | slice: 0 %}
 		{% assign searchstring = lastname | append: ' ' | append: firstinitial %}
-
+		-->
+	    {%assign searchstring = member.title%}
+		
 		{% for paper in site.categories.papers %}
 		{% if paper.authors contains searchstring %}
 		{% assign papersq = true %}
@@ -141,6 +144,7 @@ layout: default
 		{% endfor %}
 		{% endif %}
 
+		<!--
 		{% for project in site.data.projects %}
 			{% for contributor in project.contributors %}
 				{% if contributor.login == member.github %}
@@ -204,6 +208,7 @@ layout: default
 				{% endif %}
 			{% endfor %}
 		{% endif %}
+        -->
 
 	</div>
 	<div class="col-lg-1"></div>

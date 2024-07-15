@@ -2,7 +2,6 @@ source 'https://rubygems.org'
 
 # jekyll
 gem "jekyll", "4.3.2"
-#gem "github-pages", "~> 231", group: :jekyll_plugins
 
 # katex
 gem "execjs"
