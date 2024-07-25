@@ -44,8 +44,8 @@ jobs:
         uses: actions/configure-pages@v5
           #- name: Uninstall Bundler
           #run: gem uninstall bundler
-      - name: Install Bundler
-        run: gem install bundler:2.1.4 --default
+          #- name: Install Bundler
+          #run: gem install bundler:2.1.4 --default
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}" --trace
