@@ -4,7 +4,7 @@ email: yul549.ucsd@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Group website of the Li lab of materials research for sustainable energy applications
   at the Hong Kong University of Science and Technology (Guangzhou).
-baseurl: '' # the subpath of the site, e.g. /team/
+baseurl: '/liresearchlab.github.io' # the subpath of the site, e.g. /team/
 url: 'https://liresearchlab.github.io' # the base hostname & protocol for the site  # 'http://localhost:4000/'
 twitter_username: YuhengLI9
 github_username: liresearchlab
