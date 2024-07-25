@@ -23,4 +23,4 @@ gem 'webrick'
 # gzipping assets
 gem 'jekyll-gzip'
 
-gem "Bundler", "2.1.4:
+gem "Bundler", "2.1.4"
