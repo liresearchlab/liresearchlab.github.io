@@ -36,24 +36,14 @@ layout: default
 		</div>
 		<div class="bigspacer"></div>
 		{% endif %}
-		{% if member.fediverse %}
-		<div class="smallhead">
-			Fediverse
-		</div>
-		<div class="pad-left note">
-			<div class="smallspacer"></div>
-			<i class="fa fa-handshake-o"></i>
-			<a class="off" href="https://{{ member.fediverse.server }}/{{ member.fediverse.handle }}">{{ member.fediverse.handle }}</a>
-		</div>
-		<div class="bigspacer"></div>
-		{% endif %}
 		{% if member.scholar %}
 		<div class="smallhead">
 			Google Scholar
 		</div>
 		<div class="pad-left note">
 			<div class="smallspacer"></div>
-			<i class="fa fa-book fa-fw"></i>
+			<!-- <i class="fa fa-book fa-fw"></i> -->
+			<i class="ai ai-google-scholar ai-1x "></i>
 			<a class="off" href="http://scholar.google.com/citations?user={{ member.scholar }}">{{ member.title }}</a>
 		</div>
 		<div class="bigspacer"></div>
@@ -66,17 +56,6 @@ layout: default
 			<div class="smallspacer"></div>
 			<i class="fa fa-github-alt fa-fw"></i>
 			<a class="off" href="https://github.com/{{ member.github }}">{{ member.github }}</a>
-		</div>
-		<div class="bigspacer"></div>
-		{% endif %}
-		{% if member.calendar %}
-		<div class="smallhead">
-			Calendar
-		</div>
-		<div class="pad-left note">
-			<div class="smallspacer"></div>
-			<i class="fa fa-calendar fa-fw"></i>
-			<a class="off" href="{{ member.calendar }}">{{ member.title }}</a>
 		</div>
 		<div class="bigspacer"></div>
 		{% endif %}
