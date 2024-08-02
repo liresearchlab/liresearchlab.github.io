@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Yuheng awarded the Schmidt AI in Science Fellowship
+title: Yuheng became a Schmidt AI in Science Fellow
 author: Yuheng Li
 #authors:
 #  - Yuheng Li
