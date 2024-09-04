@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Yuheng visited Imperial College Londo
+title: Yuheng visited Imperial College London
 author: Yuheng Li
 date: 2023-12-14
 ---
