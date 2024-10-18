@@ -1,12 +1,12 @@
 ---
 layout: member
 title: Zhanlin Li
-position: Master of Philosophy
+position: MPhil Student
 handle: zhanlinli
 github: zlli0406
 #scholar: FWpyNyYAAAAJ
 image: /images/team/zhanlin-li.jpg
-#email: 
+email: zli046@connect.hkust-gz.edu.cn
 #orcid:
 ---
 
