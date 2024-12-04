@@ -7,7 +7,7 @@ year: 2024
 ref: Rong et al. Adv. Sci. xx, 2410015 (2024).
 journal: "<i>Advanced Science</i> xx, 2410015 (2024)"
 pdf: /pdfs/papers/rong2024-perovskite-transistors-advsci.pdf
-doi: 10.1021/acsenergylett.4c02590
+doi: 10.1002/advs.202410015
 #github: https://github.com/caneparesearch/copper_catalyst
 ---
 
