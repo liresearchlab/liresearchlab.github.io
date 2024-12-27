@@ -3,10 +3,10 @@ layout: member
 title: Guanghua Liu
 position: Research Assistant
 handle: guanghualiu
-github: GHLau
+#github: GHLau
 #scholar:
 image: /images/team/guanghua-liu.jpg
-email: gavinghliu@hkust-gz.edu.cn
+#email: gavinghliu@hkust-gz.edu.cn
 #orcid: <a class="off" href="https://scholar.google.com/citations?hl=en&user=RAPUZlEAAAAJ">Prof. Wei Lin</a>
 alumni: false
 ---
