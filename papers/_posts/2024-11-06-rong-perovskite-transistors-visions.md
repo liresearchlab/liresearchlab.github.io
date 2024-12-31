@@ -4,8 +4,8 @@ title: Perovskite thin-film transistors for ultra-low-voltage neuromorphic visio
 image: /images/papers/rong2024-perovskite-transistors-advsci.png
 authors: Yang Rong, De Yu, Xin Zhang, Tao Wang*, Jie Wang, <ins>Yuheng Li</ins>, Tongpeng Zhao, Ruiqin He, Yuxin Gao, Can Huang*, Shumin Xiao, Jingkai Qin, Sai Bai, Huihui Zhu, Ao Liu, Yimu Chen*, Qinghai Song*.
 year: 2024
-ref: Rong et al. Adv. Sci. xx, 2410015 (2024).
-journal: "<i>Advanced Science</i> xx, 2410015 (2024)"
+ref: Rong et al. Adv. Sci. 11, 2410015 (2024).
+journal: "<i>Advanced Science</i> 11, 2410015 (2024)"
 pdf: /pdfs/papers/rong2024-perovskite-transistors-advsci.pdf
 doi: 10.1002/advs.202410015
 #github: https://github.com/caneparesearch/copper_catalyst
