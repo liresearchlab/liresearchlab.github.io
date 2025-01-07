@@ -11,4 +11,4 @@ image: /images/team/guanghua-liu.jpg
 alumni: false
 ---
 
-Guanghua received his MEng. from Fuzhou University under the supervision of Prof. Wei Lin in 2024 and his BEng. from Guangzhou University in 2021. His research focuses on understanding and designing energy materials using theoretical calculations (DFT, AIMD, and NAMD), with a particular emphasis on batteries and optoelectronic materials.
+Guanghua received his MEng. from Fuzhou University in 2024 and his BEng. from Guangzhou University in 2021. His research focuses on understanding and designing energy materials using theoretical calculations (DFT, AIMD, and NAMD), with a particular emphasis on batteries and optoelectronic materials.
