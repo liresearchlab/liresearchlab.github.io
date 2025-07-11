@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Alioth is officially online!
+title: Alioth is online!
 author: Yuheng Li
 date: 2025-04-17
 ---
