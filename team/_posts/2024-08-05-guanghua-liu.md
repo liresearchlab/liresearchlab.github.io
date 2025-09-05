@@ -1,9 +1,9 @@
 ---
 layout: member
 title: Guanghua Liu
-position: Research Assistant
+position: PhD Student
 handle: guanghualiu
-#github: GHLau
+github: GHLau
 #scholar:
 image: /images/team/guanghua-liu.jpg
 #email: gavinghliu@hkust-gz.edu.cn
