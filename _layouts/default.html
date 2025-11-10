@@ -117,6 +117,12 @@
 						<li class="nav-link">
 						{% endif %}
 						<a class="mx-1" href="/team/">team</a></li>
+						{% if page.categories.first == 'teaching' %}
+						<li class="nav-link active">
+						{% else %}
+						<li class="nav-link">
+						{% endif %}
+						<a class="mx-1" href="/teaching/">teaching</a></li>
 					</ul>
 				</div>
 			</div>
