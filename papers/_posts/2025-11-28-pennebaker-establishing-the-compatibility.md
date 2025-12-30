@@ -4,10 +4,10 @@ title: Establishing the compatibility of anolytes and catholytes in dual electro
 image: /images/papers/pennebaker2025-establishing.png
 authors: Tyler Pennebaker, Elias Sebti, Abhishek Panchal, Chen-Jui Huang, Yulia Trenikhina, Tianyu Li, Yan Li, Yuheng Li, Stephen Kelly, Ying Shirley Meng, Pieremanuele Canepa*, Raphaële Clément*.
 year: 2025
-ref: Pennebaker et al. Chem. Mater. 37, 6127 (2025).
-journal: "<i>Chemistry of Materials</i> 37, 6127 (2025)"
-pdf: /pdfs/papers/balzat2025-li4sis4-li4sns4-cm.pdf
-doi: 10.26434/chemrxiv-2025-chtzv
+ref: Pennebaker et al. (2025).
+#journal: "<i>Chemistry of Materials</i> 37, 6127 (2025)"
+#pdf: /pdfs/papers/pennebaker2025-establishing.pdf
+#doi: 10.26434/chemrxiv-2025-chtzv
 #github: https://github.com/caneparesearch/copper_catalyst
 ---
 
