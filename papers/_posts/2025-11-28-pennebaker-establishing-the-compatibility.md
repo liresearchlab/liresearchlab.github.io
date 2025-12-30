@@ -7,7 +7,7 @@ year: 2025
 ref: Pennebaker et al. (2025).
 #journal: "<i>Chemistry of Materials</i> 37, 6127 (2025)"
 #pdf: /pdfs/papers/pennebaker2025-establishing.pdf
-#doi: 10.26434/chemrxiv-2025-chtzv
+doi: 10.26434/chemrxiv-2025-chtzv
 #github: https://github.com/caneparesearch/copper_catalyst
 ---
 
