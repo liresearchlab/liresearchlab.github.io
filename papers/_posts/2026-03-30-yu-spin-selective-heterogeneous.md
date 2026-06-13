@@ -4,8 +4,8 @@ title: Spin-selective heterogeneous chiral perovskites for circular-polarization
 image: /images/papers/yu2026-spin-selective-ncomm.png
 authors: De Yu, Xin Zhang, Tao Wang*, Yuheng Li, Ruiqin He, Zeyang Xu, Jixin Tang, Yixuan Zhang, Xinmiao Zhang, Huang Huang, Tongpeng Zhao, Haoliang Liu, Ao Liu, Kai Shen*, Sai Bai*, Huihui Zhu*, Yimu Chen*, Qinghai Song*.
 year: 2026
-ref: Yu et al. Nat. Commun. (2026).
-#journal: "<i>Chemistry of Materials</i> 37, 6127 (2025)"
+ref: Yu et al. Nat. Commun. 17, 4587 (2026).
+journal: "<i>Nature Communications</i> 17, 4587 (2026)"
 #pdf: /pdfs/papers/pennebaker2025-establishing.pdf
 doi: 10.1038/s41467-026-71190-9
 #github: https://github.com/caneparesearch/copper_catalyst
