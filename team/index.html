@@ -243,7 +243,7 @@ categories:
 <div class="bigspacer"></div>
 -->
 
-
+<!--
 {% for member in site.categories.team reversed %}
 	{% if member.alumni == true %}
     {% cycle 'add rows 2': '<div class="row">', '', '' %}
@@ -251,7 +251,7 @@ categories:
 			<div class="media">        
   				<a class="pull-left" href="{{ member.url }}"><img width=160 class="media-object" src="{{ member.image }}"></a>
  			 	<div class="media-body">
-    				<div class="head mb-1"><a href="{{ member.url }}" class="off">{{ member.title }}</a></div>
+    				<div class="head media-heading"><a href="{{ member.url }}" class="off">{{ member.title }}</a></div>
     				<p class="note">{{ member.position }}</p>
   				</div>
 			</div>
@@ -261,5 +261,4 @@ categories:
     {% endif %}
 {% endfor %}
 {% cycle 'close rows 2': '', '</div>', '</div>' %}
-
-<!--media-heading @Line 254-->
+-->
