@@ -3,11 +3,11 @@ layout: member
 title: Tianzuo Wang
 position: PhD Student
 handle: tianzuowang
-#github: 
+github: tianzuowang93
 #scholar: 
 image: /images/team/tianzuo-wang.jpg
 email: twang628@connect.hkust-gz.edu.cn
-#orcid: 
+orcid: 0009-0001-3456-6921
 alumni: false
 ---
 
