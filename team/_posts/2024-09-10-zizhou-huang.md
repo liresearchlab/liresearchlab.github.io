@@ -4,7 +4,7 @@ title: Zizhou Huang
 position: Undergraduate Student
 handle: zizhouhuang
 github: Testiphi
-#scholar: FWpyNyYAAAAJ
+#scholar: 
 image: /images/team/zizhou-huang.jpg
 email: zhuang712@connect.hkust-gz.edu.cn
 #orcid:

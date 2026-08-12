@@ -4,7 +4,7 @@ title: Xingwen Chen
 position: MPhil Student
 handle: xingwenchen
 github: xchen-812
-#scholar: FWpyNyYAAAAJ
+#scholar: 
 image: /images/team/xingwen-chen.jpg
 email: xchen812@connect.hkust-gz.edu.cn
 #orcid: #<a class="off" href="https://scholar.google.com/citations?user=hhCv-a0AAAAJ">Academician Xueliang Sun</a> and <a class="off" href="https://scholar.google.com/citations?hl=en&user=brq6AJcAAAAJ">Professor Changhong Wang</a>

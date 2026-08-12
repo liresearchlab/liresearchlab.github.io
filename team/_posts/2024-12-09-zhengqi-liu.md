@@ -6,7 +6,7 @@ handle: zhengqiliu
 github: Qi-726
 scholar: WJZ7vb4AAAAJ
 image: /images/team/zhengqi-liu.jpg
-#email: yixuanzhang@hkust-gz.edu.cn
+#email: 
 orcid: 0009-0005-2181-2248
 alumni: true
 ---
